@@ -18,6 +18,12 @@ The scraped content is then indexed and used to power a chatbot that can answer 
 "ما طريقة عمل الكفتة؟"
 "ما هي مكونات شوربة العدس؟"
 
+Example Query:
+  ```query = "طريقة عمل الكفتة؟"
+  result = qa_chain.invoke({"question": query})
+  print("🧠 الإجابة:", result["text"]
+  ```
+
 
 Tech Stack:
 
