@@ -19,12 +19,6 @@ The scraped content is then indexed and used to power a chatbot that can answer 
 "ما هي مكونات شوربة العدس؟"
 
 
-Example Query:
-  query = "طريقة عمل الكفتة؟"
-  result = qa_chain.invoke({"question": query})
-  print("🧠 الإجابة:", result["text"])
-
-
 Tech Stack:
 
   - Selenium, BeautifulSoup, requests – for recipe scraping
